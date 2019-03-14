@@ -24,7 +24,7 @@ Accent Color: #E6EBE0
 <!-- 2. Footer (with copyright text and disclaimer text stating "For educational purpose only! No orders shall be fulfilled"). The background color is <Primary Color>. Font color is <Secondary Color>. Center align all text. `(2.5 pts)` -->
 <!-- 3. Left sidebar (with working links to all your other pages e.g home, about, contact us, product and login) Link color is <Secondary Color>. No underlines. `(5 pts)` -->
 4. Right sidebar with recent product listings `(5 pts)`
-5. Main content area (must include at least a `<h1>` heading font color is <Secondary Color>, 5 `<p>` paragraph. Font color is <Secondary Color>, and at least 6 `<img>` images displayed as a table OR a gallery) `(5 pts)`
+<!-- 5. Main content area (must include at least a `<h1>` heading font color is <Secondary Color>, 5 `<p>` paragraph. Font color is <Secondary Color>, and at least 6 `<img>` images displayed as a table OR a gallery) `(5 pts)` -->
 
 ## About Us Page  `(20 pts total)`
 <!-- 1. A one column layout web page with company description and information `(5 pts)` -->
