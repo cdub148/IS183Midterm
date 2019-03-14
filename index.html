@@ -1,9 +1,149 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>ClintWells - IS183 Midterm</title>
-</head>
-<body>
-    <!-- html comment -->
-</body>
+    <head>
+        <title>ClintWells - IS183 Midterm</title>
+        <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        html, body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .main-container-grid {
+            display: grid;
+            grid-template-rows: 1fr 13fr 1fr;
+            height: 100%;
+            grid-row-gap: 1em;
+        }
+
+        .r1, .r3 {
+            background-color: #9BC1BC;
+            padding: 1em;
+            display: grid;
+            align-items: center;
+        }
+
+        .r2 {
+            height: 100%;
+            background-color: darkgray;
+        }
+
+        .r3 {
+            text-align: center;
+            background-color: #9BC1BC;
+            color: #F4F1BB
+        }
+
+        .three-column {
+            display: grid;
+            grid-template-columns: 2fr 8fr 3fr;
+            background-color: #9BC1BC;
+            grid-column-gap: 1em;
+        }
+
+        .c1, .c3 {
+            background-color: darkgray;
+            }
+
+            .txt-center {
+                text-align: center;
+                margin: 15px auto 0px;
+                border-bottom: 1px solid black;
+                padding-bottom: 15px;
+            }
+
+            .left-nav {
+                list-style-type: none;
+            }
+
+            .left-nav > li > a {
+                display: block;
+                color: #F4F1BB;
+                padding: 15px 0px 15px 30px;
+                background-color: darkgray;
+                text-decoration: none;
+                font-weight: bold;
+                transition-duration: 0.2s;
+            }
+
+            .left-nav > li > a:hover {
+                background-color: lightgray;
+            }
+
+            .c2 {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                /* grid-template-rows: 1fr 1fr 1fr; */
+                grid-gap: 1em;
+                grid-auto-rows: min-content;
+            }
+
+            .h2-content {
+                grid-column: 1 / 5;
+                height: 21px;
+                width: 100%;
+            }
+
+            .c1 {
+                min-width: 200px;
+            }
+
+            .c2 > img {
+                width: 100%;
+                align-self: center;
+                max-height: 205px;
+            }
+
+            .r1 > img {
+                height: 50px;
+                width: 100px;
+            }
+
+        </style>
+    </head>
+    <body class="main-container-grid">
+        <div class="r1">
+            <img src="./img//sm_logo.jpg" alt="HeaderLogo">
+        </div>
+        <div class="r2 three-column">
+            <div class="c1">
+                <h2 class="txt-center">Navigation</h2>
+                <ul class="left-nav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                </ul> 
+            </div>
+            <div class="c2">
+                <h2 class="txt-center h2-content">Gallery</h2>
+                    <img src="./img/image_1.jpeg" alt="image1">
+                    <img src="./img/image_2.jpeg" alt="image2">
+                    <img src="./img/image_3.jpeg" alt="image3">
+                    <img src="./img/image_4.jpeg" alt="image4">
+                    <img src="./img/image_5.jpeg" alt="image5">
+            </div>
+            <div class="c3">
+                <h2 class="txt-center">Recent Products</h2>
+                <p>Product 1001</p>
+                <p>Product 1002</p>
+                <p>Product 1003</p>
+                <p>Product 1004</p>
+                <p>Product 1005</p>
+            </div>
+        </div>
+        <div class="r3">
+            For educational purpose only! No orders shall be fulfilled
+        </div>
+    </body>
 </html>
